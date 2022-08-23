@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# NFT Creation 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates ERC 721 NFT creation, First Contract is created and deployed then the interaction happens with the creation of NFT, This NFT is then imported in Metamask mobile wallet.   
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network goerli
+npx hardhat run scripts/deploy.js --network goerli^C
 ```
