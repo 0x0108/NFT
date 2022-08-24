@@ -1,11 +1,15 @@
-# NFT Creation 
+# NFT Minting Solidity Contract  
 
-This project demonstrates ERC 721 NFT creation, First Contract is created and deployed then the interaction happens with the creation of NFT, This NFT is then imported in Metamask mobile wallet.   
+This project demonstrates Solidity ERC 721 NFT Contract creation, using Openzeppelin library 
 
-Try running some of the following tasks:
+The purpose of this particular contract is to mint NFT.
 
-```shell
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network goerli
-npx hardhat run scripts/deploy.js --network goerli^C
-```
+The contract was deployed in Goerli https://goerli.etherscan.io/address/0x49ca697cbd9a04e6a148015c97d79cb31a585064, connected with Alchemy based node services and used Hardhat environmnet using Ethers js.
+
+The NFT image was uploaded to Pinata and pinned. 
+
+NFT was minted by calling mintNFT function in deployed smartcontract.
+
+Able to view the minted NFT in the metamask mobile wallet!!
+
+
