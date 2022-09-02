@@ -1,5 +1,5 @@
 /**
- * @type import('hardhat/config').HardhatUserConfig
+ * @type import('hardhat/config').HardhatUserConfig test
  */
 require("dotenv").config();
 require("@nomiclabs/hardhat-ethers");
